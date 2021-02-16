@@ -1,0 +1,6 @@
+org\connet\dto\network\PublicIpDetailRequest.class
+org\connet\dto\network\PublishIpRequest$PublishIpRequestBuilder.class
+org\connet\dto\network\PublishIpRequest.class
+org\connet\dto\network\PublicIpDetailRequest$PublicIpDetailRequestBuilder.class
+org\connet\dto\network\PublishIpResponse.class
+org\connet\dto\network\PublishIpResponse$PublishIpResponseBuilder.class

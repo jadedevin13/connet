@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/connet/connet.iml" filepath="$PROJECT_DIR$/connet/connet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/connet-client/connet-client.iml" filepath="$PROJECT_DIR$/connet-client/connet-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/connet-dto/connet-dto.iml" filepath="$PROJECT_DIR$/connet-dto/connet-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+    </modules>
+  </component>
+</project>
