@@ -5,6 +5,7 @@ com:
   auth0:
     client-id: x02d7GbI0eHTKlS7h2GZX2zeGRDLHj8h
     domain: https://dev-bbml6pve.jp.auth0.com
+    client-secret: 39XMlA3xdM86xyBOibnjZTr5bw0PgFT1EADFWCi7W_ulqxlqOckE7vpKXUjYBbWd
 
 org.connet.extern.what-is-my-ip-address.base-url: http://bot.whatismyipaddress.com
 org:

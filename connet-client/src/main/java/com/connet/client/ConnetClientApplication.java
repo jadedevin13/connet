@@ -1,11 +1,11 @@
 package com.connet.client;
 
 import com.connet.client.property.Auth0Property;
-import com.connet.client.security.OAuthInterceptor;
 import javafx.application.Application;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.filter.CommonsRequestLoggingFilter;
 
@@ -21,7 +21,7 @@ public class ConnetClientApplication {
 
 
     @Bean
-    public RestTemplate connetRestTemplate(OAuthInterceptor oAuthInterceptor) {
+    public RestTemplate connetRestTemplate(ClientHttpRequestInterceptor oAuthInterceptor) {
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.setInterceptors(Collections.singletonList(oAuthInterceptor));
         return restTemplate;

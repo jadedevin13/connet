@@ -19,7 +19,7 @@ public class AuthService {
     }
 
     public TokenHolder retrieveToken(String emailOrUsername, String password) throws Auth0Exception {
-        AuthAPI auth = new AuthAPI(auth0Property.getDomain(), auth0Property.getClientId(), "39XMlA3xdM86xyBOibnjZTr5bw0PgFT1EADFWCi7W_ulqxlqOckE7vpKXUjYBbWd");
+            AuthAPI auth = new AuthAPI(auth0Property.getDomain(), auth0Property.getClientId(), auth0Property.getClientSecret());
         tokenHolder = auth.login(emailOrUsername, password.toCharArray()).execute();
         return tokenHolder;
     }

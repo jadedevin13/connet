@@ -8,4 +8,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class Auth0Property {
     private String domain;
     private String clientId;
+    private String clientSecret;
 }

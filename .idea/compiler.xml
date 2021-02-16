@@ -2,13 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="connet" />
         <module name="connet-client" />
-        <module name="parent" />
         <module name="connet-dto" />
       </profile>
     </annotationProcessing>
@@ -23,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="connet" options="-parameters" />
       <module name="connet-client" options="-parameters" />
+      <module name="connet-dto" options="-parameters" />
       <module name="parent" options="-parameters" />
     </option>
   </component>
